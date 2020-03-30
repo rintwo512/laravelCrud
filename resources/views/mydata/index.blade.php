@@ -25,7 +25,7 @@
             <td>
             <a href="{{'/data/edit/' . $row->id}}" class="btn btn-success btn-sm">Update</a>
             <a href="{{'/data/delete/' . $row->id}}" class="btn btn-danger btn-sm">Delete</a>
-            <a href="{{'/data/detail/' . $row->id}}" class="btn btn-warning btn-sm">Detail</a>
+            <a href="{{url('/data/detail/' . $row->id)}}" class="btn btn-warning btn-sm">Detail</a>
             </td>
           </tr>
           @endforeach      

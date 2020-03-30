@@ -19,9 +19,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                   <div class="navbar-nav">
-                  <a class="nav-item nav-link active" href="{{'/'}}">Home</a>
-                    <a class="nav-item nav-link" href="{{'/data'}}">Data</a>
-                    <a class="nav-item nav-link" href="#">Pricing</a>                
+                  <a class="nav-item nav-link active" href="{{url('/')}}">Home</a>
+                    <a class="nav-item nav-link" href="{{url('/data')}}">Data</a>
+                  <a class="nav-item nav-link" href="{{url('/covid')}}">Covid</a>                
                   </div>
                 </div>
               </nav>

@@ -23,3 +23,5 @@ Route::get('/data/delete/{id}', 'MydataController@destroy');
 Route::get('/data/edit/{id}', 'MydataController@edit');
 Route::post('/data/update/{id}', 'MydataController@update');
 Route::get('/data/detail/{id}', 'MydataController@show');
+
+Route::get('/covid', 'CovidController@index');
